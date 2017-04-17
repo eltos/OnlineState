@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Online State</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="locale_online">Local</string>
+    <string name="connecting">Connecting</string>
+    <string name="connected">Connected</string>
+    <string name="disconnecting">Disconnecting</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="suspended">Suspended</string>
+    <string name="unknown">Unknown</string>
+    <string name="none">None</string>
+    <string name="net_type">Network type:</string>
+    <string name="net_state">Network state:</string>
+    <string name="local_ip">Local address:</string>
+    <string name="local_ping">Local ping:</string>
+    <string name="remote_ip">Remote address:</string>
+    <string name="remote_ping">Remote ping:</string>
+    <string name="settings">Settings</string>
+    <string name="wait">…</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_ping_frequency_key">ping_frequency</string>
+    <string name="pref_title_ping_frequency">Ping Check Frequency</string>
+    <string name="pref_default_ping_frequency">1000</string>
+    <string-array name="pref_ping_frequency_titles">
+        <item>0.5 seconds</item>
+        <item>1 second</item>
+        <item>5 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+    </string-array>
+    <string-array name="pref_ping_frequency_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>30000</item>
+    </string-array>
+
+    <string name="pref_remote_ip_key">remote_address</string>
+    <string name="pref_default_remote_ip">8.8.8.8</string>
+    <string name="pref_title_remote_ip">Remote Address</string>
+
+
+    <string name="pref_title_locale_enabled">Check Local Network</string>
+    <string name="pref_locale_enabled_key">locale_enabled</string>
+    <string name="pref_description_locale_enabled">Check weather the local network is available</string>
+
+    <string name="pref_locale_ip_key">locale_address</string>
+    <string name="pref_default_locale_ip">127.0.0.1</string>
+    <string name="pref_title_locale_ip">Local Address</string>
+
+    <string name="pref_sounds_key">sounds</string>
+    <string name="pref_title_sounds">Enable Sounds</string>
+    <string name="pref_description_sounds">Beep when connection is established or lost</string>
+
+    <string name="pref_title_ping_count">Ping Count</string>
+    <string name="pref_ping_count_key">ping_count</string>
+    <string name="pref_default_ping_count">2</string>
+    <string-array name="pref_ping_count_titles">
+        <item>1 iteration</item>
+        <item>2 iterations</item>
+        <item>3 iterations</item>
+        <item>4 iterations</item>
+        <item>5 iterations</item>
+    </string-array>
+    <string-array name="pref_ping_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

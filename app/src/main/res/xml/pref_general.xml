@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pref_default_ping_frequency"
+        android:entries="@array/pref_ping_frequency_titles"
+        android:entryValues="@array/pref_ping_frequency_values"
+        android:key="@string/pref_ping_frequency_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_ping_frequency" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_default_ping_count"
+        android:entries="@array/pref_ping_count_titles"
+        android:entryValues="@array/pref_ping_count_values"
+        android:key="@string/pref_ping_count_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_ping_count" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_remote_ip"
+        android:key="@string/pref_remote_ip_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_remote_ip" />
+
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_locale_enabled_default"
+        android:key="@string/pref_locale_enabled_key"
+        android:summary="@string/pref_description_locale_enabled"
+        android:title="@string/pref_title_locale_enabled" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_locale_ip"
+        android:key="@string/pref_locale_ip_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_locale_ip" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_sounds_default"
+        android:key="@string/pref_sounds_key"
+        android:summary="@string/pref_description_sounds"
+        android:title="@string/pref_title_sounds" />
+
+
+</PreferenceScreen>
